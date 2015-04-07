@@ -21,7 +21,7 @@ $this->set('title', 'Plugins');
         <?php
         foreach (Plugin::loaded() as $plugin) {
 
-            if ( $plugin != 'Admin' ) {
+            if ( $plugin != 'CakeManagerTheme' ) {
 
             ?>
             <tr>
