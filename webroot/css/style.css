@@ -1,0 +1,52 @@
+header {
+	background-color: #2f4050;
+}
+
+.row {
+	max-width: 100%;
+}
+
+.actions.columns {
+	border: 0;
+}
+.actions.columns h3,
+.index h3 {
+	color: #ff6c60;
+}
+
+a {
+	color: #ff6c60;
+}
+
+body * {
+	font-family: 'Open Sans';
+}
+
+table tr th, table tr td {
+	color: #797979;
+}
+
+button {
+	background-color: #00a65a;
+	border-color: #008d4c;
+}
+
+.header-help span {
+	margin: 0 5px;
+	background: #777;
+	color: #eee;
+	padding: 5px 10px;
+}
+
+
+/*
+p,
+ul.pagination li,
+ul.pagination li a, ul.pagination li button,
+ul, ol, dl,
+table tr th, table tr td,
+table thead tr th, table thead tr td,
+.side-nav li {
+	font-size: inherit;
+}
+*/
