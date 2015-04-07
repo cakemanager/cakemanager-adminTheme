@@ -8,3 +8,19 @@ This is a pre-alpha version of the admin theme for the CakeManager Plugin for Ca
 Once you got your CakeManager up and running open /config/bootstrap.php and add the following line at the end of the file:
 
 Plugin::load('Admin');
+
+
+The, in /src/Controller/AppController.php, add
+
+    public function beforeFilter(\Cake\Event\Event $event)
+    {
+        parent::beforeFilter($event);
+
+        $this->theme = 'CakeManagerTheme';
+    }
+
+    public $helpers = [
+      'Form' => [
+        'templates' => 'CakeManagerTheme.TwitterBootstrap'
+      ]
+    ];
