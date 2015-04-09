@@ -24,10 +24,6 @@ $this->assign('title', $title);
         </title>
         <?= $this->Html->meta('icon') ?>
 
-        <?//= $this->Html->css('base.css') ?>
-        <?//= $this->Html->css('cake.css') ?>
-        <?//= $this->Html->css('CakeManager.custom_admin') ?>
-        <?//= $this->Html->css('Admin.style') ?>
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet" type="text/css">
         <?= $this->Html->css('//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css') ?>
         <?= $this->Html->css('//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css') ?>
@@ -39,61 +35,6 @@ $this->assign('title', $title);
         <?= $this->fetch('script') ?>
     </head>
 
-<?php /*    
-    <body>
-        <header>
-            <div class="header-title">
-                <span><?= $this->fetch('title') ?></span>
-                <small>
-
-                    <?=
-                    (isset($authUser) ?
-                            "Welcome " . $authUser['email'] . " | "
-                            . $this->Html->link('Logout', [
-                                'plugin'     => 'CakeManager',
-                                'controller' => 'Users',
-                                'action'     => 'logout',
-                                'prefix'     => false,
-                            ]) : $this->Html->link('Login', [
-                                'plugin'     => 'CakeManager',
-                                'controller' => 'Users',
-                                'action'     => 'login',
-                                'prefix'     => false,
-                            ]) )
-                    ?>
-
-                </small>
-            </div>
-            <?= $this->Menu->menu('header', 'CakeManager.HeaderMenu') ?>
-        </header>
-        <div id="container">
-
-            <div id="content">
-                <?= $this->Flash->render() ?>
-                <?= $this->Flash->render('auth') ?>
-
-                <div class="row">
-
-                    <div class="actions columns large-2 medium-3">
-                        <h3><?= __('Actions') ?></h3>
-                        <ul class="side-nav">
-                            <?= $this->Menu->menu('main', 'CakeManager.MainMenu') ?>
-                        </ul>
-                    </div>
-
-                    <div class="users index large-10 medium-9 columns">
-
-                        <?= $this->fetch('content') ?>
-
-                    </div>
-
-                </div>
-            </div>
-            <footer>
-            </footer>
-        </div>
-    </body>
-*/ ?>
 
     <body class="skin-black">
         <!-- header logo: style can be found in header.less -->

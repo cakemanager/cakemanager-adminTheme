@@ -25,11 +25,6 @@ $cakeDescription = 'CakeManager';
         </title>
         <?= $this->Html->meta('icon') ?>
 
-        <?/*= $this->Html->css('base.css') ?>
-        <?= $this->Html->css('cake.css') ?>
-        <?//= $this->Html->css('http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css') ?>
-        <?= $this->Html->css('CakeManager.custom_admin') ?>
-        <?= $this->Html->css('Admin.style')*/ ?>
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet" type="text/css">
         <?= $this->Html->css('//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css') ?>
         <?= $this->Html->css('//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css') ?>
