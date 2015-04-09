@@ -27,7 +27,7 @@ $this->assign('title', $title);
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet" type="text/css">
         <?= $this->Html->css('//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css') ?>
         <?= $this->Html->css('//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css') ?>
-        <?= $this->Html->css('AdminLTE.css') ?>
+        <?= $this->Html->css('CakeManagerTheme.AdminLTE.css') ?>
         <?= $this->Html->css('custom.css') ?>
 
         <?= $this->fetch('meta') ?>
